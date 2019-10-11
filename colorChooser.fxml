@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.colorChooserController">
+   <children>
+      <Label layoutX="67.0" layoutY="79.0" text="Red" />
+      <Label layoutX="67.0" layoutY="151.0" text="Green" />
+      <Label layoutX="67.0" layoutY="228.0" text="Blue" />
+      <Label layoutX="67.0" layoutY="311.0" text="Alpha" />
+      <Slider fx:id="redSlider" layoutX="160.0" layoutY="81.0" max="255.0" prefWidth="50.0" />
+      <Slider fx:id="greenSlider" layoutX="160.0" layoutY="153.0" max="255.0" prefWidth="50.0" />
+      <Slider fx:id="blueSlider" layoutX="160.0" layoutY="230.0" max="255.0" prefWidth="50.0" />
+      <Slider fx:id="alphaSlider" layoutX="160.0" layoutY="313.0" max="1.0" prefWidth="50.0" />
+      <TextField fx:id="redTextField" layoutX="300.0" layoutY="76.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="greenTextField" layoutX="300.0" layoutY="148.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="blueTextField" layoutX="300.0" layoutY="225.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="alphaTextField" layoutX="300.0" layoutY="308.0" prefHeight="25.0" prefWidth="36.0" />
+      <Circle fill="DODGERBLUE" layoutX="457.0" layoutY="201.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="colorRectangle" arcHeight="5.0" arcWidth="5.0" fill="#000305" height="252.0" layoutX="357.0" layoutY="79.0" stroke="#030303" strokeType="INSIDE" width="200.0" />
+   </children>
+</Pane>
