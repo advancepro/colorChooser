@@ -12,7 +12,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("Account.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("ColorChooser.fxml"));
         primaryStage.setTitle("PainterAppController");
         primaryStage.setScene(new Scene(root, 900, 600));
         primaryStage.show();
